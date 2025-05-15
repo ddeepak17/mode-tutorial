@@ -1,0 +1,16 @@
+[package]
+name = "my-dapp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dmoney_addr = "4cbdbcafce785c90e2a20f08183f7cfae366c2e9a568930ff04319751f9f894f"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
