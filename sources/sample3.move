@@ -7,15 +7,16 @@ address dmoney_addr {
     public(friend) fun get_value(): u64 {
       return 100
     }
-
+    /*
     #[view]
     public fun get_prices(): u64 {
       ...
     }
-
+    */
   }
 
   module two {
+    /*
     #[test_only]
     use std::debug::print;
 
@@ -24,10 +25,12 @@ address dmoney_addr {
       let result = dmoney_addr::one::get_value();
       print(&result);
     }
+    */
   }
 
   module three {
 
+    /*
     #[test_only]
     use std::debug::print;
 
@@ -36,7 +39,7 @@ address dmoney_addr {
       let result = dmoney_addr::one::get_value();
       print(&result);
     }
+    */
 
   }
-
 }
