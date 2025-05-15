@@ -9,6 +9,7 @@ module dmoney_addr::Sample2 {
       return (0, choice)
   }
 
+/*
   #[test_only]
   use std::debug::print;
 
@@ -18,4 +19,5 @@ module dmoney_addr::Sample2 {
     print(&number);
     print(&choice);
   }
+  */
 }
